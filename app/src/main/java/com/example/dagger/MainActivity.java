@@ -3,10 +3,14 @@ package com.example.dagger;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.dagger.car.Car;
+import com.example.dagger.dagger.CarComponent;
+
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
-    @Inject Car car;
+    @Inject
+    Car car;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
