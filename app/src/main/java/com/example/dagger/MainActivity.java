@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.example.dagger.car.Car;
 import com.example.dagger.dagger.CarComponent;
+import com.example.dagger.dagger.DaggerCarComponent;
 
 import javax.inject.Inject;
 
